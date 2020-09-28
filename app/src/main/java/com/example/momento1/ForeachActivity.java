@@ -19,7 +19,7 @@ public class ForeachActivity extends AppCompatActivity {
         String arraycitoS = "";
 
         for (int i = 0; i < arraycito.length; i++) {
-            arraycitoS += arraycito[i] + "\n ----------------------- \n";
+            arraycitoS += arraycito[i] + "\n ----------------------\n";
         }
 
         textView.setText(arraycitoS);
